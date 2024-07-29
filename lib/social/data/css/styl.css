@@ -1,0 +1,19 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Droid Arabic Naskh;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(252, 244, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+    width: 500px;
+    height: 700px;
+    background: #000;
+}

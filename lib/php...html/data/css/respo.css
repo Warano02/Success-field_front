@@ -1,0 +1,265 @@
+@media screen and (max-width: 1500px) {
+  .container {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    margin: 0 50px;
+  }
+  .container .all .subject {
+    width: 80%;
+  }
+  .container .all .pub-and-search {
+    right: 70px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 0 5px;
+  }
+  .container .all .subject {
+    width: 80%;
+  }
+  .container .all .subject .epreuve {
+    margin: 5px;
+    width: 600px;
+  }
+  .container .all .subject .epreuve .desc {
+    width: 540px;
+    left: 85px;
+  }
+  .container .all .subject .epreuve .desc span {
+    font-size: 25px;
+  }
+  .separation {
+    width: 530px;
+  }
+  .btn-list {
+    width: 90px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .container .header .mot {
+    left: 170px;
+  }
+  .container .all {
+    margin: 20px 0px 20px 0px;
+  }
+  .container .all .subject {
+    width: 70%;
+  }
+  .container .all .pub-and-search {
+    width: 240px;
+    right: 15px;
+  }
+  .users-informations .containt h1 {
+    font-size: 20px;
+  }
+  .users-informations .containt .user-infos img {
+    width: 70px;
+    height: 70px;
+  }
+  .container .all .pub-and-search div,
+  .div-search {
+    width: 235px;
+  }
+  .div-search form input,
+  .div-search form button {
+    width: 195px;
+  }
+  .container .all .subject .epreuve {
+    width: 500px;
+  }
+  .container .all .subject .epreuve .desc {
+    width: 440px;
+    left: 78px;
+  }
+  .container .all .subject .epreuve .desc span {
+    font-size: 20px;
+  }
+  .container .all .subject .epreuve .date {
+    width: 60px;
+    height: 60px;
+  }
+  .jour,
+  .annee {
+    font-size: 20px;
+    top: 25px;
+  }
+  .annee {
+    font-size: 13px;
+
+    top: 42px;
+  }
+  .separation {
+    width: 430px;
+  }
+  .btn-list {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 794px) {
+  .container .header {
+    width: 100%;
+  }
+  .container .header .mot {
+    left: 100px;
+  }
+  .container .header .mot span {
+    width: 600px;
+  }
+  .container .all {
+    margin: 0;
+  }
+  .container .all .subject {
+    width: 100%;
+  }
+  .container .all .subject .result-search {
+    width: 70%;
+  }
+  .container .all .pub-and-search {
+    position: relative;
+    margin: 0;
+    right: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .all .pub-and-search .users-informations {
+    height: 250px;
+  }
+  .container .all .pub-and-search .users-informations .containt h1 {
+    font-size: 18px;
+  }
+  .container
+    .all
+    .pub-and-search
+    .users-informations
+    .containt
+    .user-infos
+    img {
+    width: 70px;
+    height: 70px;
+  }
+  .clear h2,
+  .clear h3,
+  .clear h4,
+  .clear h5 {
+    margin-top: 4px;
+  }
+  .clear h2 {
+    font-size: 20px;
+  }
+
+  .container .all .subject {
+    width: 70%;
+  }
+  .container .all .subject .result-search {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 710px) {
+  .container .header .mot {
+    left: 30px;
+  }
+  .citation {
+    height: 260px;
+  }
+  .div-search form input,
+  .div-search form button {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .citation {
+    height: 260px;
+  }
+  .div-search form input,
+  .div-search form button {
+    width: 140px;
+  }
+  .div-search form ::placeholder {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .citation {
+    width: 150px;
+    height: auto;
+    margin: 5px 1px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  .container .header {
+    width: 100%;
+    background-position-x: -350px;
+    background-position-y: -10px;
+  }
+  .container .header .mot {
+    width: 98%;
+    left: 2px;
+  }
+  .container .header .mot span {
+    width: 100%;
+  }
+  .container .all {
+    padding: 0;
+  }
+  .container .all .subject {
+    padding: 0;
+  }
+  .container .all .subject .result-search {
+    width: 100%;
+  }
+  .container .all .subject .epreuve {
+    height: 240px;
+    padding: 2px;
+  }
+  .container .all .subject .epreuve .desc {
+    width: 100%;
+    top: 15px;
+    left: 64px;
+  }
+  .container .all .subject .epreuve .desc h1 {
+    width: 350px;
+    font-size: 8px;
+  }
+  .container .all .subject .epreuve .desc p {
+    position: absolute;
+    left: -45px;
+    top: 52px;
+    width: 350px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .download {
+    top: 180px;
+    right: 120px;
+  }
+  .btn-list{
+    top: 190px;
+  }
+  .par{
+    top: 175px;
+  }
+  .separation {
+    top: 200px;
+    width: 320px;
+  }
+  .container .all .pub-and-search {
+    height: 100%;
+    background: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

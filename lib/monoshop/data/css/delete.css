@@ -1,0 +1,104 @@
+/**
+ * style pour la page ../pages/admin/produit/delete.php
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 65.2%;
+}
+body {
+  background: rgb(54, 53, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  position: relative;
+  width: 45rem;
+  height: 55rem;
+  overflow: hidden;
+  padding: 5rem;
+}
+main h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+main h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: aliceblue;
+  margin: 0.9rem;
+  text-decoration: underline;
+}
+.container {
+  position: relative;
+  width: 40rem;
+  height: 50rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background: rgb(95, 94, 94);
+  margin-top: 0.5rem;
+  padding: 5px;
+}
+main .container img {
+  width: 25em;
+  height: 25em;
+  margin: 0.5rem 5rem;
+  border-radius: 50% 0 50% 0;
+  -webkit-border-radius: 50% 0 50% 0;
+  -moz-border-radius: 50% 0 50% 0;
+  -ms-border-radius: 50% 0 50% 0;
+  -o-border-radius: 50% 0 50% 0;
+}
+.container p {
+  width: 100%;
+  margin: 10px;
+  font-variant: initial;
+  color: whitesmoke;
+  font-size: 1.4em;
+  overflow: hidden;
+}
+.container span {
+  position: absolute;
+  right: 10px;
+  font-weight: bold;
+  color: brown;
+  font-size: 25px;
+}
+.container button {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  margin: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  background: green;
+
+  outline: none;
+  border: 1px solid wheat;
+  color: #01f36e;
+}
+.container button:hover {
+  background: #01f36e;
+  color: wheat;
+}
+.container button:nth-child(2n) {
+  background: rgb(238, 1, 1);
+  color: rgb(105, 10, 10);
+  width: 110px;
+}
+.container button:nth-child(2n):hover {
+  background: brown;
+}

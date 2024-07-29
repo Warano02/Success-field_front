@@ -1,0 +1,22 @@
+{
+  "name": "success-field",
+  "version": "1.0.0",
+  "description": "La partie front de notre projet success-fields",
+  "main": "t.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Warano02/Success-fields.git"
+  },
+  "keywords": [
+    "success-fields"
+  ],
+  "author": "warano carineteoi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Warano02/Success-fields/issues"
+  },
+  "homepage": "https://github.com/Warano02/Success-fields#readme"
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Cabin+Sketch:wght@400;700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Monoton&family=Permanent+Marker&family=Playwrite+CO:wght@100..400&family=Playwrite+NO:wght@100..400&family=Workbench&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap");
+/************************************************************************
+**     AFFICHES DE L'UTILISATEUR EN COURS                              **
+**                                                                     **
+*************************************************************************/
+.users-informations {
+  position: relative;
+  width: 260px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  animation: vibrate 5s infinite ease-in;
+  cursor: grab;
+  -webkit-animation: vibrate 5s infinite ease-in;
+}
+.users-informations img {
+  width: 100%;
+  height: 100%;
+  filter: blur(5px);
+  -webkit-filter: blur(2px);
+}
+.users-informations .containt {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  width: 255px;
+  height: 395px;
+}
+.users-informations .containt h1 {
+  font-size: 25px;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+  text-shadow: 5px -4px 88px rgba(39, 47, 150, 1);
+}
+.users-informations .containt .user-infos img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  left: 90px;
+  object-fit: cover;
+  margin-top: 5px;
+  filter: blur(0);
+  -webkit-filter: blur(0);
+}
+.clear {
+  position: absolute;
+  top: 115px;
+  left: 20px;
+}
+.clear h2,
+.clear h3,
+.clear h4,
+.clear h5 {
+  color: aliceblue;
+  margin-top: 10px;
+  font-family: "LXGW WenKai Mono TC", monospace;
+  font-weight: bold;
+}
+.clear h2 {
+  font-size: 20px;
+}
+.clear span {
+  color: #d9d9d9;
+  cursor: copy;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.clear span:hover {
+  text-decoration: underline;
+}
+@keyframes vibrate {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-1deg);
+  }
+  20% {
+    transform: rotate(1deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-1deg);
+  }
+  80% {
+    transform: rotate(1deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}

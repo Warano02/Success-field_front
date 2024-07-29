@@ -1,0 +1,102 @@
+/*
+ Style de  la  page d'ajout de produit du dossier `monoshop/data/pages/admin/produit/index.php`
+*/
+.btn-list {
+  position: relative;
+}
+#Ajouter {
+  position: relative;
+  left: 13rem;
+  width: 20.2rem;
+  height: 3rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: rgb(31, 121, 201);
+  background: #a6deff;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+#Ajouter:hover {
+  background: #1a95dd;
+  color: rgb(71, 71, 161);
+  scale: 1.1;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}
+.produit_vue {
+  position: relative;
+  margin-top: 1rem;
+  width: 15rem;
+  height: auto;
+  left: 12rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem 1rem 0.5rem 0.5rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border: none;
+  overflow: hidden;
+}
+.produit_vue .nom {
+  height: 3rem;
+  width: 100%;
+  background: rgb(199, 199, 199);
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.produit_vue .description{
+    background-image: url("../img/bgd.jpg");
+    background-position: center;
+    position: relative;
+}
+.produit_vue .image{
+    width: 15rem;
+    height: 15rem;   
+    overflow: hidden;
+}
+.produit_vue .btn-list{
+    width: 100%;
+    height: 2rem;
+    background: rgb(199, 199, 199);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+}
+.produit_vue .btn-list button{
+    background: rgb(148, 147, 147);
+    height: 25px;
+    width: 60px;
+    border: 0.1px solid white;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  position: relative;
+  left: -5px;
+    cursor: pointer;
+}
+.produit_vue .btn-list button:hover{
+    color: rgb(148, 147, 147);
+    background: #000;
+}

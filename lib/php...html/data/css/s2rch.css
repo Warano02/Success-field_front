@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap");
+
+.div-search {
+  position: relative;
+  width: 250px;
+  height: 230px;
+  margin: 5px;
+  background-image: url(../img/e8rto2.jpg);
+  background-size: 100% 100%;
+  border-radius: 10px;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  animation: moov 5s infinite;
+  -webkit-animation: moov 5s infinite;
+}
+.div-search h3 {
+  font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px;
+}
+.div-search fieldset {
+  position: relative;
+  width: calc(100% - 5px);
+  height: 140px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1.2px solid #007bff;
+}
+legend {
+  background-color: #007bff;
+  height: 10px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-search form {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.div-search form input,
+.div-search form button {
+  width: 210px;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 0.5px solid #007bff;
+  border-radius: 50px;
+  outline: none;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.div-search form button {
+  background: #007bff;
+  color: aqua;
+  cursor: pointer;
+}
+.div-search form button:hover {
+  background: #0965c7;
+  color: rgb(47, 216, 216);
+  scale: 1.1;
+}
+@keyframes moov {
+  from {
+    scale: 0.7;
+  }
+  to {
+    scale: 1;
+  }
+}
