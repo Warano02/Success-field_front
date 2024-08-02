@@ -10,8 +10,8 @@ if (!isset($_SESSION['yetedi'])) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Envois du message</title>
-    <link rel="stylesheet" href="../monoshop/data/css/scg.css" />
+    <title>Connexion</title>
+    <link rel="stylesheet" href="./data/css/st.css" />
 </head>
 
 <body>

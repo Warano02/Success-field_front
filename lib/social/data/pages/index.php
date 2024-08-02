@@ -12,7 +12,8 @@ if (!isset($_SESSION['yetedi'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Success-field</title>
   <link rel="stylesheet" href="../css/style.css" />
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="../js/script2.js" defer></script>
 </head>
 
@@ -54,12 +55,12 @@ if (!isset($_SESSION['yetedi'])) {
         <span class="i"><i class="fa-brands fa-facebook-messenger"></i></span>
         <span class="mes">3</span>
         <span class="i"><i class="fa-sharp fa-regular fa-bell"></i></span>
-        <span class="i"><i class="fa-sharp fa-solid fa-tv-music"></i></span>
-        <span class="i"><i class="fa-sharp fa-solid fa-shop"></i></span>
+        <span class="i"><i class="fa-regular fa-tv"></i></span>
+        <span class="i"><i class="fa-sharp fa-solid fa-shop" ></i></span>
       </div>
     </div>
     <div class="pro">
-      <img src="../../../api/app/data/admin-pp/<?=$_SESSION['profil']?>" alt="Profil de l'utilisateur en cours d'utilisation" />
+      <img src="../../../api/app/data/admin-pp/<?=$_SESSION['profil']?>" alt="Profil de l'utilisateur en cours d'utilisation" id="View_profil"/>
       <span class="ell"></span>
       <input type="text" id="tpb" placeholder="A quoi pensez-vous  ?" />
       <i class="phi">

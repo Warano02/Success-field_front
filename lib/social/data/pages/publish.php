@@ -21,16 +21,16 @@ if (!isset($_SESSION['yetedi'])) {
       </div>
       <div class="header_name">
       <i class='bx bx-arrow-back'></i> <span><?=$_SESSION["nom"]?></span>
-      <a href="">Changer de profil</a>
+      <span class="a" id="Change_profil">Changer de profil</span>
       </div>
       <div class="profil_picture">
-        <img src="../../../api/app/data/admin-pp/<?=$_SESSION["profil"]?>" alt="">
+        <img src="../../../api/app/data/admin-pp/<?=$_SESSION["profil"]?>" alt="Votre profil">
         <div class="span"><img src="../img/utils/camera.svg"></div>
       </div>
   </div>
   <div class="user_name">
     <p><?=$_SESSION["nom"]?></p>
-    <span class="span"><span>488</span>publication(s)</span>
+    <span class="span"><span id="ndp">488</span>publication(s)</span>
     <button class="publication"><i class='bx bx-plus'></i> Ajouter une publication</button>
    <button class="edit_profil"><i class='bx bx-pencil'></i> Modifier le profil</button>
     <span class="share">
@@ -39,5 +39,6 @@ if (!isset($_SESSION['yetedi'])) {
   </div>
   <hr>
 </div>
+<script src="../js/publish.js"></script>
 </body>
 </html>

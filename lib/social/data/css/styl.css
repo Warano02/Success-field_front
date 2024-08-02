@@ -1,4 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"); */
+/*
+STYLE DE LA PAGE ../pages/publish.php
+*/
 * {
   margin: 0;
   padding: 0;
@@ -83,13 +85,14 @@ body {
 
   font-size: 1.5rem;
 }
-.container .header_name a {
+.container .header_name .a {
   position: absolute;
   right: 5px;
   top: 12px;
   font-size: 1.5rem;
   color: rgb(3, 161, 182);
   text-decoration: none;
+  cursor: pointer;
 }
 .container .header .profil_picture {
   position: absolute;
