@@ -50,7 +50,7 @@ if (!isset($_SESSION['yetedi'])) {
       </div>
       <div class="tout">
         <span class="i"><i class="fa-solid fa-house"></i></span>
-        <span class="np">15 <sup>+</sup></span>
+        <span class="np" id="np">15 <sup>+</sup></span>
         <span class="i"><i class="fa-solid fa-users"></i></span>
         <span class="i"><i class="fa-brands fa-facebook-messenger"></i></span>
         <span class="mes">3</span>

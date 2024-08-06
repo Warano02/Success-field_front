@@ -1,0 +1,268 @@
+/*
+        Style de la page ../pages/message.php
+*/
+/* @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Inconsolata:wght@200..900&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+:root {
+  --Normal-Font: 1.3rem;
+  --bg-white: #fffefe;
+  --bg-s-white: #f9f9f9;
+  --border-b: #d8d8d8;
+  --bg-green: #51df5d;
+  --bg-green-f: #d8d8d8;
+  --bg-blue-1: #0c56df;
+  --bg-audio: #8f8c8c;
+  --bg-audio-play: #f1f1f1f5;
+  --message-font: "Inconsolata", monospace;
+  --audio-play-2: #5786dd;
+  --bg-audio-play-2: #85b0ff;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(252, 244, 244);
+}
+.container {
+  width: 50rem;
+  height: 65rem;
+  background: var(--bg-white);
+  position: relative;
+  font-family: "Gupter", serif;
+}
+.container .user {
+  width: 100%;
+  height: 3.5rem;
+  background: var(--bg-s-white);
+  display: flex;
+  align-items: center;
+  font-size: var(--Normal-Font);
+  font-weight: bold;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  margin-top: 10px;
+  position: relative;
+}
+.container .user .bx-arrow-back {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.container .user img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  margin-right: 5px;
+}
+/*****************************************************
+   Style des messages simples
+*****************************************************/
+.container main {
+  width: 50rem;
+  height: 50rem;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* background: #000; */
+  position: relative;
+  border-bottom: 1px solid var(--bg-audio);
+}
+.container main .interlocutor {
+  width: 20rem;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+  display: flex;
+}
+.container main .interlocutor img,
+.you img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 5px 0 0;
+}
+.container main .interlocutor p,
+.container main .you p {
+  width: 18rem;
+  background: var(--bg-green-f);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px;
+  font-size: var(--Normal-Font);
+  font-family: var(--message-font);
+}
+.container main .you {
+  width: 20rem;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 10px 0 0;
+  margin: 5px 0 0 29.5rem;
+}
+.container main .you p {
+  color: var(--bg-white);
+  background: var(--bg-blue-1);
+  margin-right: 10px;
+  border-bottom-right-radius: 0.2px;
+}
+/*****************************************************
+   Style des messages vocaux
+*****************************************************/
+.container .audio {
+  width: 25rem;
+  height: 3rem;
+  padding: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  margin-left: 5px;
+  background: var(--bg-green-f);
+  border-top-left-radius: 0.2px;
+}
+
+.container .audio .profil {
+  position: absolute;
+  right: 0;
+}
+.container .audio .btn-list img {
+  position: absolute;
+  left: 0;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.container .audio .btn-list .pause {
+  display: none;
+}
+.container .audio .btn-list .progress,
+.container .myAudio .btn-list .progress {
+  position: absolute;
+  height: 27px;
+  width: 139px;
+  left: 33px;
+  display: flex;
+  align-items: center;
+}
+.container .audio .btn-list .progress span,
+.container .myAudio .btn-list .progress span {
+  height: 5px;
+  width: 140px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: var(--bg-audio-play);
+}
+.container .audio .btn-list .progress span .point,
+.container .myAudio .btn-list .progress span .point {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 7px;
+  left: 0%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: var(--bg-audio);
+}
+.container .myAudio {
+  padding: 5px;
+  height: 3rem;
+  margin-bottom: 15px;
+  margin-right: 18rem;
+  position: relative;
+  right: 0;
+  background: var(--bg-blue-1);
+  border-top-left-radius: 0.2px;
+  border-radius: 10px 10px 1px 10px;
+  -webkit-border-radius: 10px 10px 1px 10px;
+  -moz-border-radius: 10px 10px 1px 10px;
+  -ms-border-radius: 10px 10px 1px 10px;
+  -o-border-radius: 10px 10px 1px 10px;
+  padding-left: 5px;
+}
+.container .myAudio .profil {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+.container .myAudio .controls {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  cursor: pointer;
+}
+.container .myAudio .btn-list .progress span {
+  background: var(--bg-audio-play-2);
+}
+.container .myAudio .btn-list .progress span .point {
+  background: var(--audio-play-2);
+}
+
+/*****************************************************
+   Style du formulaire de messagerie 
+*************************************************
+*/
+form {
+  width: 100%;
+  padding: 2px 10px 10px 20px;
+}
+form .bx-microphone {
+  font-size: 30px;
+  color: blue;
+}
+form textarea {
+  resize: none;
+  width: 37rem;
+  height: 4rem;
+  margin: 5px 2px 0 0;
+  background: var(--border-b);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: italic;
+}
+form button {
+  width: 4rem;
+  height: 30px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  counter-reset: none;
+  color: var(--bg-audio);
+  padding-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}

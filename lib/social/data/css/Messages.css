@@ -1,0 +1,239 @@
+/*
+          Style de la page ../pages/Messages.php
+*/
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+:root {
+  --Normal-Font: 1.3rem;
+  --bg-white: #fffefe;
+  --bg-s-white: #f9f9f9;
+  --border-b: #d8d8d8;
+  --bg-green: #51df5d;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(252, 244, 244);
+}
+#heure{
+  color: white;
+}
+.container {
+  width: 50rem;
+  height: 65rem;
+  background: var(--bg-white);
+  position: relative;
+  font-family: "Gupter", serif;
+}
+.Header {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  position: relative;
+  border-bottom: 1px solid var(--border-b);
+}
+
+.Header header {
+  position: sticky;
+  width: 100%;
+  height: 30px;
+  background: #1f1c1c;
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  justify-content: space-around;
+  padding: 2px 0;
+  z-index: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Header header .hg {
+  position: absolute;
+  top: 3px;
+  width: 200px;
+  left: 10px;
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  font-size: 15px;
+}
+.Header header .hg i {
+  font-size: 13px;
+  margin: 3px;
+}
+.Header header .hg .icon .fa-circle {
+  font-size: 8px;
+}
+.Header header .hg .heure {
+  margin: 2px;
+  float: left;
+}
+.Header header .hd {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+}
+.Header header .hd .icon {
+  display: flex;
+  justify-content: space-around;
+  padding: 2px 2px 2px 20px;
+  color: #fff;
+  font-size: 15px;
+}
+.tout {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+.g {
+  position: absolute;
+  top: 20px;
+  letter-spacing: 10px;
+  right: 10px;
+}
+.g .ii {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 2px 2px 15px;
+  background: #d8d8d8;
+}
+.fa-bars,
+.fa-plus,
+.fa-magnifying-glass {
+  font-size: 15px;
+}
+.i {
+  cursor: pointer;
+  font-size: 20px;
+  color: gray;
+}
+.fa-facebook-messenger {
+  color: #365899;
+}
+.np {
+  position: absolute;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  border-radius: 75px;
+  background: red;
+  color: white;
+  left: 50px;
+  text-align: center;
+  top: 7px;
+  padding: 3px;
+  font-size: 10px;
+}
+.mes {
+  width: 13px;
+  height: 13px;
+  border-radius: 50px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  padding: 2px;
+  position: absolute;
+  top: 5px;
+  left: 218px;
+}
+.container .online {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  overflow-x: scroll;
+  padding-top: 5px;
+  border-bottom: 1px solid var(--border-b);
+  margin-bottom: 5px;
+}
+.container .online .user {
+  width: 3.5rem;
+  height: 4rem;
+  margin: 0 5px 0 5px;
+  font-size: var(--Normal-Font);
+  position: relative;
+}
+.container .online .user img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 0;
+}
+.container .online .user .s1 {
+  position: absolute;
+  top: 2.99rem;
+  left: 1px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.container .online .user .Symbole-Online ,.simple-symbole{
+  position: absolute;
+  top: 2.3rem;
+  right: 0.9px;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: var(--bg-green);
+  border: 0.2px solid var(--border-b);
+}
+
+.container .users {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.container .users .user {
+  width: 100%;
+  height: 3.5rem;
+  /* background: #e6e4e4; */
+  font-size: var(--Normal-Font);
+  margin: 5px 0 ;
+  position: relative;
+}
+.container .users .user img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  float: left;
+  cursor: pointer;
+  border: 0.5px solid var(--border-b);
+  margin: 0 5px 0 0;
+}
+.container .users .user span {
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.container .users .user .simple-symbole{
+    top: 1rem;
+    right: 5px;
+}
