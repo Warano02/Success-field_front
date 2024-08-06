@@ -39,12 +39,7 @@ function connexion($email, $mdp)
     }
     echo json_encode(array(
         "msg" => $msg,
-        "statut" => $statut,
-        "nom"=>$_SESSION['nom'],
-        "email"=>$_SESSION['email'],
-        "profil"=>$_SESSION['profil'],
-        "tel"=>$_SESSION["tel"],
-        "UnId"=>$_SESSION['UnId']
+        "statut" => $statut
     ));
 }
 

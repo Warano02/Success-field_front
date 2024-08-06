@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION['yetedi'])) {
+    header('location:../../../php...html/users/login/index.php?href=iuiuibuicciuihibdshibdjcbdicu_çiosduçduççjsd');
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,9 +26,9 @@
 <body>
     <div class="container">
 <div class="user">
-    <i class='bx bx-arrow-back'></i>
-    <img src="../img/publication/img/joyce.jpg" alt="">
-    Heu Wang Warano
+    <i class='bx bx-arrow-back' id="re"></i>
+    <img src="../img/publication/img/joyce.jpg" id="profil" alt="Votre tof de profil" >
+    <span id="nom">Heu Wang Warano</span>
 </div>
 <main id="main">
     <div class="interlocutor">
@@ -61,7 +67,7 @@
     
 </main>
 <form id="form">
-    <i class='bx bx-microphone' id="start"></i>
+    <i class='bx bx-microphone ' id="start"></i>
     <textarea placeholder="Ecrivez..." name="contenue" id="contenue" required></textarea>
     <button type="submit"><i class='bx bx-send'></i></button>
 </form>

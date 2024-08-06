@@ -266,3 +266,17 @@ form button {
   text-align: center;
   cursor: pointer;
 }
+form #start{
+  cursor: pointer;
+}
+.start-record{
+  box-shadow: 10px 16px 116px 33px rgba(48,240,163,0.29);
+background: rgba(48,240,163,0.29);
+  animation: pulse 1s infinite;
+  -webkit-animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
