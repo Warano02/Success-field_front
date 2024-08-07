@@ -1,16 +1,10 @@
-                         I-) Une breve description du projet:
-On doit creer une platforme de telechargement d'epreuve pour notre universiter.
-                         II-) Comment sa va marcher?
- Des personnes ayant un certain privileges (les enseigants ou cadres) vont mettres sur la platforme des anciens sujet afin de permettre aux nouveaux etudiant de se procuerer des epreuves afin de se mettre a niveau.Ce pendant, chaque etudiant doit pour être eligible se soummetre a une inscription  ce qui seras le cas pour les cadres.
+# MAUDIA PROBLEME D'ENVOI DE MESSAGE VOCAUX.🤔☹️
 
-                          1-) Les regles de confidentialitter:
-== Chaque cadres ou etudiants n'as droit que as un seul compte cet a dire que l'email doit etre vue qu'une seule ois dans la base de donnée.
-== Chaque etudiant devras être au prealable inscrit avec apès 5 ours d'utilisation avec un montant que l'onn choisiras
-== Pour la gestion,les epreuves dea dans la bd ne doivent en aucun cas être supprimer
+## Abeck s'il arrive que tu yaa mon pb ci, fait moi signe pour que je mette a jours mon code au même moment que toi.
 
-                        2-)Tout en un
-On se doit de terminer ceci avant la in de ce mois.........
+Sinon, comme je t'ai expliquer, le problème fatal que j'ai c'est l'implementation des messages vocaux dans mon système de messagerie pour mon simple reseaux social. Pour voir le code de la partie front qui envoie et recupere les fichier vocaux, tu dois te fier au fichiers `react.js`, `message.js` situé dans `./lib/social/data/js/`. Pour les fichiers html et css cible, il sont preciser a l'entête de chacun des fichiers js preciser ci dessus. 
+Ainsi, si tu souhaite voir la façon dont j'envoi les fichiers audio depuis le serveur, tu doit te fier a 
+ <a href="https://github.com/Warano02/Success-field_back.git"> cette partie back de mon mini projet et exactement dans `./lib/routes/get.routes.js`... il s'agit de la derniere route de ce fichier.
 
 
-
-                        OK TOP DEVELOPPE😍😍😍......
+Merci d'avance 😍😥
