@@ -31,7 +31,7 @@ if (!isset($_SESSION['yetedi'])) {
     <span id="nom">Heu Wang Warano</span>
 </div>
 <main id="main">
-    <div class="interlocutor">
+    <!-- <div class="interlocutor">
         <img src="../img/publication/img/joyce.jpg" alt="">
         <p>Salut !</p>
     </div>
@@ -51,20 +51,8 @@ if (!isset($_SESSION['yetedi'])) {
            <img src="../img/utils/download (1).png"  class="pause au1 2" id="au12">
         </div>
     </div>
-    <div class="you myAudio">
-        <img src="../../../api/app/data/admin-pp/abisha.jpg" alt="Votre photo de profil" class="profil">
-        <audio src="../vocaux/03-VVS.mp3" type="audio/mpeg" id="au2"></audio>
-        <div class="btn-list">
-            <div class="progress">
-                <span>
-                    <span class="point" id="au2au2"></span>
-                </span>
-            </div>
-           <img src="../img/utils/download.png" class="play au2 3 controls" id="3au2"> 
-           <img src="../img/utils/download (1).png"  class="pause au2 3 controls" id="au23">
-        </div>
-    </div>
     
+     -->
 </main>
 <form id="form">
     <i class='bx bx-microphone ' id="start"></i>
@@ -72,6 +60,6 @@ if (!isset($_SESSION['yetedi'])) {
     <button type="submit"><i class='bx bx-send'></i></button>
 </form>
     </div>
-    <script src="../js/message.js"></script>
+    <script src="../js/message.js" type="module"></script>
 </body>
 </html>
