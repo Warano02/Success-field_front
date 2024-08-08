@@ -19,7 +19,7 @@ if (!isset($_SESSION['yetedi'])) {
     <link rel="stylesheet" href="./data/css/respo.css">
     <script src="./data/js/search.js" defer></script>
     <script src="./data/js/index.js" defer></script>
-    <script src="./data/js/c2ton.js" defer></script>
+    <script src="./data/js/c2ton.js" type="module" defer></script>
 
 </head>
 
